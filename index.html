@@ -1,60 +1,54 @@
 <!DOCTYPE html>
-<!-- This website template was created by: Bryn Batten -->
 <html lang="en">
 <head>
-	<title>Games!</title>
+	<title>My Favorites</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="css/styles.min.css">
+	<link rel="stylesheet" href="css/styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
 <body>
-
-	<div id="container">
-	
 		<!-- Mobile Nav -->
-			<nav class="mobile-nav">
-				<div id="menu-links">
-					<a href="index.html">Home</a>
-					<a href="memory.html">Memory Game</a>
-					<a href="rocket.html">Rocket Game</a>
-				</div>
-        
-			<a class="menu-icon" onclick="hamburger()">
-				<div>&#9776;</div></a>
-			</nav>
-
-		<!-- Use the header area for the website name or logo -->
-		<header id="ffc-logo">
-		<a href="index.html"><img src= "images/brynsgames.png" alt="bryn's games logo"></a>
-		</header>
-	
-		<!-- Tablet, Desktop Nav -->
-		<nav class="tablet-desktop">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="memory.html">Memory Game</a></li>
-				<li><a href="rocket.html">Rocket Game</a></li>
-			</ul>
+		<nav class="mobile-nav">
+   			<div id="menu-links">
+     	 		<a href="index.html">Home</a>
+     	 		<a href="movies.html">Movies</a>
+     	 		<a href="games.html">Games</a>
+        	</div>
+           <a class="menu-icon" onclick="hamburger()">
+              <div>&#9776;</div>
+           </a>
 		</nav>
-		
-		<!-- Use the main area to add the main content of the webpage -->
-		<main id="content">
-		<div>
-		</div>
-		</main>
-		
-		<!-- Use the footer area to add webpage footer content -->
-		<footer>
-			
-			<div class="copyright">
-				<p>&copy; Copyright 2024. All Rights Reserved.</p>
-			</div>
-		
-		</footer>
+	<header>
+		<h1><span class="tab-desk">&#9836;</span> My Favorites <span class="tab-desk">&#9836;</span></h1>
+	</header>
 	
+	<!--Tablet, Desktop Nav -->
+	<nav class="tab-desk">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="movies.html">Movies</a></li>
+			<li><a href="games.html">Games</a></li>
+		</ul>
+	</nav>
+	
+	<div id="hero" class="tab-desk">
+		<img src="images/seats.jpg" alt="movie theater seats">
 	</div>
-		<script src="scripts/script.js"></script>
-
-		
+	
+	<!-- Use the main area to add the main content to the webpage -->
+	<main>
+	<div>
+	</div>
+	</main>
+	
+	<footer>
+		<div class="copyright">
+				<p>&copy; Copyright 2021. All Rights Reserved.</p>
+		</div>
+	</footer>
+	<script src="scripts/script.js"></script>
 </body>
 </html>

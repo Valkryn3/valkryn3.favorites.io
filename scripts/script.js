@@ -1,4 +1,3 @@
-var greeting = "Hello and welcome to my website!";
-var intro = "This site contains some of my favorite movies and games!";
+var greeting = "Hello and welcome to my website! This site contains some of my favorite movies and games!";
 var el = document.getElementById('greeting');
-el.textContent = intro;
+el.textContent = greeting;

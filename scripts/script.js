@@ -2,6 +2,8 @@ var greeting = "Hello and welcome to my website! This site contains some of my f
 var el = document.getElementById('greeting');
 el.textContent = greeting;
 
+window.alert("OFFER: Email me your favorite movie or game and win a prize!");
+
   var expiryMsg; 
   var today;
   var elEnds;

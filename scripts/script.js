@@ -1,5 +1,3 @@
-window.alert("OFFER: Send me an email and win a prize! Hurry, the offer ends soon!");
-
 var greeting = "Hello and welcome to my website! This site contains some of my favorite movies and games!";
 var el = document.getElementById('greeting');
 el.textContent = greeting;

@@ -26,3 +26,5 @@ el.textContent = greeting;
   today = new Date();
   elEnds = document.getElementById('offerEnds'); 
   elEnds.innerHTML = offerExpires(today);
+
+window.alert("OFFER: Send me an email and win a prize! Hurry, the offer ends soon!");

@@ -21,4 +21,5 @@ el.textContent = greeting;
   today = new Date();
   elEnds = document.getElementById('offerEnds');
   elEnds.innerHTML = offerExpires(today);
+document.write("Offer expires next " + expiryMsg);
   

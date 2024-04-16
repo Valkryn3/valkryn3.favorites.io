@@ -2,27 +2,6 @@ var greeting = "Hello and welcome to my website! This site contains some of my f
 var el = document.getElementById('greeting');
 el.textContent = greeting;
 
-(function() {
-var hotel = {
-  name = 'Park',
-  roomRate = 240,
-  discount: 15,
-  offerPrice: function(){
-    var offerRate = this.roomRate * ((100 - this.discount) / 100);
-    return offerRate;
-  }
-  }
-
-  var hotelName, roomRate, specialRate;
-  
-  hotelName = document.getElementById('hotelName');
-  roomRate = document.getElementById('roomRate');
-  specialRate = document.getElementById('specialRate');
-
-  hotelName.textContent = hptal.name;
-  roomRate.textContent = '$' + hotel.roomRate.toFixed(2);
-  specialRate.textContent = '$' + hotel.offerPrice();
-
   var expiryMsg;
   var today;
   var elEnda;
@@ -42,5 +21,4 @@ var hotel = {
   today = new Date();
   elEnds = document.getElementById('offerEnds');
   elEnds.innerHTML = offerExpires(today);
-}());
   

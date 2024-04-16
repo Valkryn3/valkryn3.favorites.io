@@ -15,7 +15,7 @@ el.textContent = greeting;
     monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     day = dayNames[weekFromToday.getDay()];
     month = monthNames[weekFromToday.getMonth()];
-    year = weekFromToday.getFullYear()];
+    year = weekFromToday.getFullYear();
     expiryMsg = 'Offer expires next ';
     expiryMsg += day + ' <br />(' + date + ' ' + month + ' ' + year + ' ' + ')';
     return expiryMsg;

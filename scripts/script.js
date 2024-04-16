@@ -2,7 +2,7 @@ var greeting = "Hello and welcome to my website! This site contains some of my f
 var el = document.getElementById('greeting');
 el.textContent = greeting;
 
-
+document.getElementbyId("myH1").textContent = "Hello";
 (function() {
   var expiryMsg;
   var today;

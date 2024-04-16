@@ -1,3 +1,5 @@
+
+window.alert(<h1>"OFFER: Email me your favorite movie or game and win a prize!"</h1>);
 var greeting = "Hello and welcome to my website! This site contains some of my favorite movies and games!";
 var el = document.getElementById('greeting');
 el.textContent = greeting;
@@ -26,6 +28,3 @@ el.textContent = greeting;
   today = new Date();
   elEnds = document.getElementById('offerEnds'); 
   elEnds.innerHTML = offerExpires(today);
-
-window.alert("OFFER: Email me your favorite movie or game and win a prize!");
-

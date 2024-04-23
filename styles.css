@@ -109,16 +109,17 @@ main p {
 	color: #373684;
 	font-weight: bold;
 }
-#day {
-  border-radius: 25px;
-  background: #68B2F7;
-  padding: 20px; 
-  width: 200px;
-  height: 150px;  
-}
 
 .round {
 	border-radius: 8px;
+}
+#day {
+	border-radius: 25px;
+	background: #68B2F7;
+	padding: 15px; 
+	width: 150px;
+	height: 100px;
+	text-align: center;	
 }
 
 #contact {
@@ -219,6 +220,14 @@ nav li a {
 	text-align: center;
 	text-decoration: none;
 }
+#day {
+	border-radius: 25px;
+	background: #68B2F7;
+	padding: 15px; 
+	width: 150px;
+	height: 100px;
+	text-align: center;	
+}
 
 /* Tablet Viewport: Style rule for map */
 .grid {
@@ -230,15 +239,6 @@ nav li a {
 aside {
 grid-column: 1 / span 2;
 }
-
-#day {
-  border-radius: 25px;
-  background: #68B2F7;
-  padding: 20px; 
-  width: 200px;
-  height: 150px;  
-}
-
 /* Tablet Viewport: Style rule for form element */
 
 /* Tablet Viewport: Style rules for footer area */
@@ -269,13 +269,12 @@ nav li a:hover {
 }
 
 #day {
-  border-radius: 25px;
-  background: #68B2F7;
-  padding: 15px; 
-  width: 150px;
-  height: 100px;
-text-align: center;
-	
+	border-radius: 25px;
+	background: #68B2F7;
+	padding: 15px; 
+	width: 150px;
+	height: 100px;
+	text-align: center;	
 }
 
 /* Desktop Viewport: Style rules for main content */

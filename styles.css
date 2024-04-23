@@ -109,6 +109,13 @@ main p {
 	color: #373684;
 	font-weight: bold;
 }
+#page1, #page2 {
+	background-color: #fecc6f;
+	height: 596px;
+	padding: 10px;
+	min-width: 779px;}
+#page2 {
+	height: 730px;}
 
 #day {
 	border: 12px double #fff;
@@ -234,6 +241,13 @@ aside {
 grid-column: 1 / span 2;
 }
 
+#page1, #page2 {
+	background-color: #fecc6f;
+	height: 596px;
+	padding: 10px;
+	min-width: 779px;}
+#page2 {
+	height: 730px;}
 #day {
 	border: 12px double #fff;
 	color: #523620;
@@ -282,6 +296,13 @@ main h3 {
 	font-size: 1.5em;
 }
 
+#page1, #page2 {
+	background-color: #fecc6f;
+	height: 596px;
+	padding: 10px;
+	min-width: 779px;}
+#page2 {
+	height: 730px;}
 #day {
 	border: 12px double #fff;
 	color: #523620;

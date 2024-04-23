@@ -110,19 +110,14 @@ main p {
 	font-weight: bold;
 }
 
-#piano, #guitar, #violin {
-	margin: 0 2%;
-}
-
-#info {
-	clear: left;
-	background-color: #c0caf7;
-	padding: 1% 2%;
-}
-
-#info ul {
-	margin-left: 10%;
-}
+#answer {
+	border: 12px double #fff;
+	color: #523620;
+	text-align: left;
+	padding: 20px;
+	margin: 70px auto 10px auto;
+	width: 250px;
+	text-align: center;}
 
 .round {
 	border-radius: 8px;

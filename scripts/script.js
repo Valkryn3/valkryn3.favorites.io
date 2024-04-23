@@ -34,7 +34,7 @@ var msg = "";
 
 if (operator === 'addition'){
   while (i < 11) {
-    msg ++ i + ' + ' table + ' = ' + (i + table) + '<br />';
+    msg += i + ' + ' table + ' = ' + (i + table) + '<br />';
     i++;
   }
 } else {

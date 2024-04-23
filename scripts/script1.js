@@ -5,5 +5,5 @@
     msg = 'If you love movies and video games, you have come to the right place!';
   }
 
-  var el = document.getElementById('answer');
-  el.textContent = msg;
+  var el = document.getElementById('answer').innerHTML = msg;
+  

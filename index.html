@@ -35,14 +35,22 @@
 		<img src="images/seats.jpg" alt="movie theater seats">
 	</div>
 
+	<p id="day">daytime</p>
+	const time = new Date().getHours();
+	let greeting;
+	if (time < 10) {
+	  greeting = "Good morning";
+	} else if (time < 20) {
+	  greeting = "Good day";
+	} else {
+ 	 greeting = "Good evening";
+	}
+	document.getElementById("day").innerHTML = greeting;
+	</script>
+		
 	<div id="greeting">Hello and welcome to my website!</div>
 	<p>OFFER: Send me an email and win a prize! Hurry, the offer ends soon!</p>
 
-	<p id="day">daytime</p>
-	<script>if (new Date().getHours() < 18) {
- 	 document.getElementById("day").innerHTML = "Good day!";
-	}
-	</script>
 
 	<!-- Use the main area to add the main content to the webpage -->
 	<main>

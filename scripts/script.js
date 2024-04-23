@@ -27,22 +27,12 @@ el.textContent = greeting;
   elEnds = document.getElementById('offerEnds'); 
   elEnds.innerHTML = offerExpires(today);
 
-var table = 3;
-var operator = 'addition';
-var i = 1;
-var msg = "";
+  var score = 75;    
+  var msg;            
 
-if (operator === 'addition'){
-  while (i < 11) {
-    msg += i + ' + ' table + ' = ' + (i + table) + '<br />';
-    i++;
+  if (score >= 50) {  
+    msg = 'If you love movies and video games, you have come to the right place!';
   }
-} else {
-  while (i < 11) {
-    msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
-    i++;
-  }
-}
 
-var el = document.getElementById('blackboard');
-el.innerHTML = msg;
+  var el = document.getElementById('answer');
+  el.textContent = msg;

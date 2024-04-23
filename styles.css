@@ -273,7 +273,9 @@ nav li a:hover {
   background: #68B2F7;
   padding: 20px; 
   width: 200px;
-  height: 150px;  
+  height: 75px;
+text-align: center;
+	
 }
 
 /* Desktop Viewport: Style rules for main content */

@@ -47,6 +47,18 @@
 	}
 	document.getElementById("day").innerHTML = greeting;
 	</script>
+
+	<p>Click the button to display the date.</p>
+	<button onclick="displayDate()">The time is?</button>
+
+	<script>
+	function displayDate() {
+  	document.getElementById("date").innerHTML = Date();
+	}
+	</script>
+
+	<p id="date"></p>
+	
 		
 	<div id="greeting">Hello and welcome to my website!</div>
 	<p>OFFER: Send me an email and win a prize! Hurry, the offer ends soon!</p>

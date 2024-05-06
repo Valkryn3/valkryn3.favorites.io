@@ -4,6 +4,7 @@
 	<title>My Favorites</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,21 +44,23 @@
 	<main>
 		<section id="info">
 		
-		<h2>WHat kind of movies I like?</h2>
+		<h2>Movies</h2>
 			
 			<p>words</p>
 			
 			<p>Words:</p>
-			<ul>
-				<li>?</li>
-				<li>?</li>
-				<li>?</li>
-				<li>?</li>
-				<li>?</li>
+			<ul id="list">
+				<li>List item</li>
+				<li>List item</li>
+				<li>List item</li>
+				<li>List item</li>
+				<li>List item</li>
 			</ul>
-			
 		</section>
-		
+		<script>
+			$('ul#list li:first').css('color', 'green');
+			$('ul#list li:last').css('color', 'red');
+		</script>
 		<section id="movie1">
 		
 			<h3>first movie</h3>

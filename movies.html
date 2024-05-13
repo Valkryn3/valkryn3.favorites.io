@@ -66,6 +66,26 @@
 			<h3>first movie</h3>
 			
 			<img src="images/movie1.jpg" alt=" " class="round">
+
+			<p>Click on the button to open the video in fullscreen mode.</p>
+			<button onclick="openFullscreen();">Open Video in Fullscreen Mode</button>
+			<p><strong>Tip:</strong> Press the "Esc" key to exit full screen.</p>
+
+			<iframe width="640" height="360" src="https://www.youtube.com/embed/5PSNL1qE6VY" title="Avatar | Official Trailer (HD) | 20th Century FOX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+			<script>
+			var elem = document.getElementById("myvideo");
+
+			function openFullscreen() {
+				if (elem.requestFullscreen) {
+					elem.requestFullscreen();
+				} else if (elem.webkitRequestFullscreen) {
+					elem.webkitRequestFullscreen();
+  				} else if (elem.msRequestFullscreen) { 
+					elem.msRequestFullscreen();
+				}
+			}
+			</script>
 			
 			<p>description</p>
 		</section>

@@ -71,10 +71,10 @@
 			<button onclick="openFullscreen();">Open Video in Fullscreen Mode</button>
 			<p><strong>Tip:</strong> Press the "Esc" key to exit full screen.</p>
 
-			<iframe width="640" height="360" src="https://www.youtube.com/embed/5PSNL1qE6VY" title="Avatar | Official Trailer (HD) | 20th Century FOX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			<iframe width="640" height="360" controls id="avatar" src="https://www.youtube.com/embed/5PSNL1qE6VY" title="Avatar | Official Trailer (HD) | 20th Century FOX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 			<script>
-			var elem = document.getElementById("myvideo");
+			var elem = document.getElementById("avatar");
 
 			function openFullscreen() {
 				if (elem.requestFullscreen) {

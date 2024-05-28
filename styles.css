@@ -1,5 +1,5 @@
 /* Css Reset */
-body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption {
+body, header, nav, main, footer, img, h1, ul {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -63,34 +63,6 @@ nav {
     background-color: #373684;
 }
 
-aside {
-	text-align: center;
-	font-size: 1.5em;
-	font-weight: bold;
-	color: #373684;
-	text-shadow: 3px 3px 10px #8280cb;
-	grid-column: 1 / span 2;
-}
-
-figure {
-	position: relative;
-	max-width: 275px;
-	margin: 2% auto;
-	border: 8px solid #373684;
-}
-
-figcaption {
-	position: absolute;
-	bottom: 0;
-	background: rgba(55, 54, 132, 0.7);
-	color: #fff;
-	width: 100%;
-	padding: 5% 0;
-	text-align: center;
-	font-family: Verdana, Arial, sans-serif;
-	font-size: 1.5em;
-	font-weight: bold;
-}
 
 /* Style rules for main content */
 main {
@@ -102,12 +74,6 @@ main {
 
 main p {
 	font-size: 1.25em;
-}
-
-.action{
-	font-size: 1.25em;
-	color: #373684;
-	font-weight: bold;
 }
 
 .round {
@@ -122,45 +88,6 @@ main p {
 	height: 100px;
 	text-align: center;	
 }
-
-#contact {
-	text-align: center;
-}
-
-#rental h2 {
-	text-align: center;
-}
-
-.tel-link {
-	background-color: #373684;
-	padding: 2%;
-	margin: 0 auto;
-	width: 80%;
-	text-align: center;
-	border-radius: 5px;	
-}
-
-.tel-link a {
-	color: #fff;
-	text-decoration: none;
-	font-size: 1.5em;
-	display: block;
-}
-
-#contact .email-link {
-	color: #4645a8;
-	text-decoration: none;
-	font-weight: bold;
-}
-
-.map {
-	border: 5px solid #373684;
-	width: 95%;
-	height: 50%;
-}
-/* Style rules for table */
-
-/* Style rules for form elements */
 
 /* Style rules for footer content */
 footer {
@@ -230,18 +157,6 @@ nav li a {
 	text-align: center;	
 }
 
-/* Tablet Viewport: Style rule for map */
-.grid {
-	display: grid;
-	grid-template-columns: auto auto;
-	grid-gap: 20px;
-}
-
-aside {
-grid-column: 1 / span 2;
-}
-/* Tablet Viewport: Style rule for form element */
-
 /* Tablet Viewport: Style rules for footer area */
 .copyright {
 	float: left;
@@ -290,18 +205,6 @@ main h3 {
 .grid {
 	grid-template-columns: auto auto auto auto;
 }
-
-figcation {
-	font-size: 1em;
-}
-
-aside {
-	grid-column: 1 / span 4;
-}
-
-/* Desktop Viewport: Style rules for table */
-
-/* Desktop Viewport: Style rules for form elements */
 }
 
 /* Media Query for Print */

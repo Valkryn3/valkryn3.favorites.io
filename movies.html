@@ -55,15 +55,15 @@
 			$('ul#list li:last').css('color', 'red');
 		</script>
 		
-		<p>Click "Test" to get every element in the array that has a value above this number:</p>
+		<p>Click "Test" to get every rating that has a value above:</p>
 
-		<p><input type="number" id="ratingToCheck" value="31%"></p>
+		<p><input type="number" id="ratingToCheck" value="31">(%)</p>
 		<button onclick="myFunction()">Test</button>
 
 		<p id="ratings"></p>
 
 		<script>
-		const ratings = [50%, 81%, 31%];
+		const ratings = [50, 81, 31];
 
 		function checkRating(ratings) {
   		return ratings > document.getElementById("ratingToCheck").value;

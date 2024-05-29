@@ -57,20 +57,20 @@
 		
 		<p>Click "Test" to get every element in the array that has a value above this number:</p>
 
-		<p><input type="number" id="ageToCheck" value="30"></p>
+		<p><input type="number" id="ratingToCheck" value="31"></p>
 		<button onclick="myFunction()">Test</button>
 
-		<p id="demo"></p>
+		<p id="ratings"></p>
 
 		<script>
-		const ages = [32, 33, 12, 40];
+		const ratings = [50, 81, 31];
 
-		function checkAge(age) {
-  		return age > document.getElementById("ageToCheck").value;
+		function checkRating(ratings) {
+  		return ratings > document.getElementById("ratingToCheck").value;
 		}
 
 		function myFunction() {
- 		 document.getElementById("demo").innerHTML = ages.filter(checkAge);
+ 		 document.getElementById("ratings").innerHTML = ratings.filter(checkRating);
 		}
 		</script>
 

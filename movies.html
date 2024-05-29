@@ -56,10 +56,15 @@
 		</script>
 		<script>
 			const ratings = [6.4, 7.9, 6.7]
-			const movieRate = ratings.filter(isGood);
+			const movieRate = ratings.filter(highest);
+			const movieRate2 = ratings.filter(lowest);
 			console.log(movieRate);
-			function isGood(element){
-				return element >= 7;
+			console.log(movieRate2);
+			function highest(element){
+				return element >= 7.0;
+			function lowest(element){
+				return element <= 7.0;
+			}
 
 			}
 		</script>

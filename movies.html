@@ -55,15 +55,18 @@
 			$('ul#list li:last').css('color', 'red');
 		</script>
 		
-		<p>Click "Test" to get every rating(rotten tomatoes) that has a value above:</p>
+		<p>Click "Test" to get every rating(rotten tomatoes audience score) that has a value above:</p>
+		<p>60% - Dragonheart(1996)</p>
+		<p>69% - King Arthur: Legend of the Sword(2017)</p>
+		<p>82% - Avatar(2009)</p>
 
-		<p><input type="number" id="ratingToCheck" value="31">(%)</p>
+		<p><input type="number" id="ratingToCheck" value="50">(%)</p>
 		<button onclick="myFunction()">Test</button>
 
 		<p id="ratings"></p>
 
 		<script>
-		const ratings = [50, 81, 31];
+		const ratings = [69, 60, 82];
 
 		function checkRating(ratings) {
   		return ratings > document.getElementById("ratingToCheck").value;

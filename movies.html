@@ -55,17 +55,16 @@
 			$('ul#list li:last').css('color', 'red');
 		</script>
 		<script>
-			const ratings = [6.4, 7.9, 6.7]
+			const ratings = [31, 81, 50]
 			const movieRate = ratings.filter(highest);
 			const movieRate2 = ratings.filter(lowest);
 			console.log(movieRate);
 			console.log(movieRate2);
 			function highest(element){
-				return element >= 7.0;
+				return element >= 51;
 			function lowest(element){
-				return element <= 7.0;
+				return element <= 50;
 			}
-
 			}
 		</script>
 

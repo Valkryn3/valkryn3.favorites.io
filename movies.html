@@ -54,6 +54,17 @@
 			$('ul#list li:first').css('color', 'green');
 			$('ul#list li:last').css('color', 'red');
 		</script>
+		<script>
+			const ratings = [6.4, 7.9, 6.7]
+			const movieRate = ratings.filter(isGood);
+			console.log(movieRate);
+			function isGood(element){
+				return element >= 7;
+
+			}
+		</script>
+
+		
 		<section id="movie1">
 		
 			<h3>first movie</h3>

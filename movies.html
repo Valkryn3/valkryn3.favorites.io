@@ -54,18 +54,24 @@
 			$('ul#list li:first').css('color', 'green');
 			$('ul#list li:last').css('color', 'red');
 		</script>
+		
+		<p>Click "Test" to get every element in the array that has a value above this number:</p>
+
+		<p><input type="number" id="ageToCheck" value="30"></p>
+		<button onclick="myFunction()">Test</button>
+
+		<p id="demo"></p>
+
 		<script>
-			const ratings = [31, 81, 50]
-			const movieRate = ratings.filter(highest);
-			const movieRate2 = ratings.filter(lowest);
-			console.log(movieRate);
-			console.log(movieRate2);
-			function highest(element){
-				return element >= 51;
-			function lowest(element){
-				return element <= 50;
-			}
-			}
+		const ages = [32, 33, 12, 40];
+
+		function checkAge(age) {
+  		return age > document.getElementById("ageToCheck").value;
+		}
+
+		function myFunction() {
+ 		 document.getElementById("demo").innerHTML = ages.filter(checkAge);
+		}
 		</script>
 
 		

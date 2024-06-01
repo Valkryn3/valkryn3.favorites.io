@@ -26,7 +26,8 @@ img {
 header {
 	text-align: center;
 	font-size: 1.5em;
-	color: #808080;
+	color: #f0f8ff;
+;
 }
 
 header h1 {
@@ -67,7 +68,7 @@ nav {
 /* Style rules for main content */
 main {
 	padding: 2%;
-	background-color: #F0F8FF;
+	background-color: #f0f8ff;
 	overflow: auto;
 	font-family: 'Roboto Slab', serif;
 }

@@ -18,8 +18,8 @@ img {
 
 /* Style rules for mobile viewport */
 /* Hide tab-desk class */
-.tab-desk, #menu-links {
-	display: none;
+.tab-desk {
+	display: block;
 }
 
 /* Style rules for header content */
@@ -87,6 +87,9 @@ main p {
 	width: 150px;
 	height: 100px;
 	text-align: center;	
+}
+#info {
+	display: block;
 }
 
 #movie1, #movie2, #movie3{

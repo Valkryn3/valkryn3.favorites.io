@@ -179,7 +179,7 @@ nav li {
 	border-top: none;
 	display: inline-block;
 	font-size: 1.5em;
-	border-right: 1px solid #e5e9fc;
+	border-right: 1px solid #F0F8FF;
 }
 
 nav li:last-child {
@@ -224,8 +224,8 @@ nav li a {
 }
 
 nav li a:hover {
-	color: #373684;
-	background-color: #e5e9fc;
+	color: #808080;
+	background-color: #F0F8FF;
 	transform: scale(1.2);
 }
 

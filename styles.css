@@ -7,7 +7,7 @@ body, header, nav, main, footer, img, h1, ul, section {
 
 /* Style rule for images */
 img {
-	max-width: 100%;
+	max-width: 80%;
 	display: block;
 }
 

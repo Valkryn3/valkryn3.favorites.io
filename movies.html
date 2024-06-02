@@ -127,6 +127,37 @@
 		
 		</section>
 
+
+		<h3>Did you like these movies?</h3>
+
+		<form id="validationForm">
+			<label for="decision">Choose Yes or No:</label>
+			<select id="decision" name="decision">
+				<option value="">-- Select --</option>
+				<option value="yes">Yes</option>
+				<option value="no">No</option>
+			</select>
+			<span id="decisionError" class="error"></span>
+			<br><br>
+			<button type="submit">Submit</button>
+		</form>
+		<p id="result"></p>
+
+		<script>
+			document.getElementById("validationForm").addEventListener("submit", function(event) {
+				event.preventDefault();
+				var decision = document.getElementById("decision").value;
+				var decisionError = document.getElementById("decisionError");
+				if (decision === "") {
+					decisionError.textContent = "Please select an option.";
+					return;
+				} else {
+					decisionError.textContent = "";
+				}
+				document.getElementById("result").textContent = "You chose: " + decision;
+			});
+		</script>
+
 	</main>
 	
 	<footer>
